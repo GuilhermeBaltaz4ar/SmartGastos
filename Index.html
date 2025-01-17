@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/Style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>SmartGastos</title>
+</head>
+<body>     
+    <header>
+        <nav id="navbar">
+            <img src="/componets/Img/Logotipo__SmartGastos_transparent.png" alt="SmartGastos" id="nav_logo">
+            <ul id="nav_list">
+                <li class="nav-item active"> 
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item"> 
+                    <a href="#conjunto_funcionalidades">Funcionalidades</a>
+                </li>
+                <li class="nav-item"> 
+                    <a href="#testimonials">Comentarios</a>
+                </li>
+            </ul>
+            <a href="https://github.com/GuilhermeBaltaz4ar/SmartGastosAPP.git" style="text-decoration: none;"><button class="btn-default">Instale Aqui</button></a>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item"> 
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item"> 
+                    <a href="#conjunto_funcionalidades">Funcionalidades</a>
+                </li>
+                <li class="nav-item"> 
+                    <a href="#testimonials">Comentarios</a>
+                </li>
+            </ul>
+            
+                <a href="https://github.com/GuilhermeBaltaz4ar/SmartGastosAPP.git" style="text-decoration: none;"><button class="btn-default">Instale Aqui</button>   </a>
+
+          
+        </div>
+    </header>
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Inscreva-se agora e receba <span>novidades</span> sobre a APP </h1>
+                <p class="description">Imagine um mundo onde controlar suas despesas e alcançar seus objetivos financeiros não é apenas simples, mas também divertido. Com o SpendSmart, isso se torna realidade.</p>
+                <form class="cta-form" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Nome">
+                    <input type="email" name="Email" placeholder="Email">
+                    <samp id="msg"></samp>
+                    <input id="button" type="submit" value="Enviar >">
+                </form>
+                <div class="social-media-buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="componets/Img/Design_sem_nome__4_-removebg-preview.png" alt="imgs_tele">
+            </div>
+        </section>
+        <section id="conjunto_funcionalidades">
+            <h2 class="section-title">Funcionalidades</h2>
+            <h3 class="section-subtitle">As mais novas Funcionalidades</h3>
+            <div id="functions" >
+
+            <!--Amostragem da função numero 1 -->
+                <div class="function">
+                    <div class="function-fire">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <img src="componets/Img/Home.png" class="function-image" alt="AddGastos">
+                    <h3 class="function-title">
+                        Tela Incial
+                    </h3>
+                    <samp class="function-description">
+                        Tela inicial com as informações mais importantes sobre as suas finanças.
+                    </samp>
+                </div>
+           
+            <!--Amostragem da função numero 1 -->
+                <div class="function">
+                    <div class="function-fire">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <img src="componets/Img/AdicionarGastos.png" class="function-image" alt="AddGastos">
+                    <h3 class="function-title">
+                        Adicionar Gastos    
+                    </h3>
+                    <samp class="function-description">
+                        Adicione os seus gastos diários e veja o seu progresso ao longo do tempo.
+                </div>
+          
+            <!--Amostragem da função numero 2 -->
+                <div class="function">
+                    <div class="function-fire">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <img src="componets/Img/Dicas.png" class="function-image" alt="Dicas">
+                    <h3 class="function-title">
+                        Dicas
+                    </h3>
+                    <samp class="function-description">
+                        Uma inteligecia artificial que lhe dará dicas para poupar dinheiro baseado nos ultimos gastos do usuario.
+                    </samp>
+                </div>
+            
+             <!--Amostragem da função numero 3 -->
+                <div class="function">
+                    <div class="function-fire">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <img src="componets/Img/Dividas_Fut.png" class="function-image" alt="Dividas">
+                    <h3 class="function-title">
+                        Dividas
+                    </h3>
+                    <samp class="function-description">
+                        Aqui voce podera adicionar todas as suas dividas que ja saeb que tera de pagar no futuro como exemplo assinaturas de striming de video.
+                    </samp>
+                </div>
+       
+            <!--Amostragem da função numero 4 -->
+                <div class="function">
+                    <div class="function-fire">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <img src="componets/Img/Grafico.png" class="function-image" alt="Grafico">
+                    <h3 class="function-title">
+                        Grafico
+                    </h3>
+                    <samp class="function-description">
+                        O app conta tambem com um grafico personalizado que mostra o toltal ja gasto e a porcentagem de gastos em cada categoria.
+                    </samp>
+                </div>
+            
+             <!--Amostragem da função numero 5 -->
+                <div class="function">
+                    <div class="function-fire">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <img src="componets/Img/Metas.png" class="function-image" alt="metas">
+                    <h3 class="function-title">
+                        Metas
+                    </h3>
+                    <samp class="function-description">
+                        Defina metas de poupança e acompanhe seu progresso ao longo do tempo. Monitore suas economias e ajuste suas metas conforme necessário para garantir que você esteja no caminho certo para alcançar seus sonhos financeiros.
+                    </samp>
+                </div>       
+            </div>
+        </section>
+        <section id="testimonials">
+            <img src="componets/Img/img_testimonial.png" id="testimonial_app" alt="">
+            <div id="testimonial_content">
+                <h2 class="section-title">Comentarios</h2>
+                <h3 class="section-subtitle">O que os nossos utilizadores dizem</h3>
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="componets/Img/Profile.png" alt="Profile">
+                        <div class="feedback-content">
+                            <p>
+                                Jose Manuel
+                                <span> 
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "O melhor app de finanças que ja usei, muito facil de usar e com uma interface muito bonita"
+                            </p>
+                        </div>
+                                       
+                    </div>
+                    <div class="feedback">
+                        <img src="componets/Img/Profile.png" alt="Profile">
+                        <div class="feedback-content">
+                            <p>
+                                Maria Joaquina
+                                <span> 
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "muito bom! recomendo a todos que querem ter um controle maior sobre as suas finanças"
+                            </p>
+                        </div>
+                
+                    </div>
+                </div>
+                <button class="btn-default">
+                    Ver mais avaliações
+            </div>
+            
+               
+        </section>
+    <footer>
+        <img src="componets/Img/wave.svg" id="footer_wave" alt="wave">
+        <div id="footer_items">
+            <samp id="copyright">
+                &copy; 2025 SmartGastos
+            </samp>
+            <div class="social-media-buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+        </div>
+    </footer>
+    <script src="src/javasript/script.js"></script>
+    
+</body>
+</html>
